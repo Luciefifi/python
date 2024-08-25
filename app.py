@@ -95,16 +95,23 @@
 # fizz_buzz
 
 
-def fizz_buzz(number):
-    if  number % 3 == 0 and number % 5 == 0:
-        print("FUZZBUZZ")
+# def fizz_buzz(number):
+#     if  number % 3 == 0 and number % 5 == 0:
+#         print("FUZZBUZZ")
   
-    elif number % 5 == 0:
-        print("BUZZ")
-    elif   number % 3 == 0:
-        print("FIZZ")
-    else:
-        print(number)
+#     elif number % 5 == 0:
+#         print("BUZZ")
+#     elif   number % 3 == 0:
+#         print("FIZZ")
+#     else:
+#         print(number)
 
 
-fizz_buzz(5)
+# fizz_buzz(5)
+from ecommerce.shopping import sales
+
+# print(dir(sales))
+print(sales.__name__)
+print(sales.__package__)
+print(sales.__cached__)
+print(sales.__file__)
