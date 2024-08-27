@@ -108,10 +108,18 @@
 
 
 # fizz_buzz(5)
-from ecommerce.shopping import sales
+# from ecommerce.shopping import sales
 
-# print(dir(sales))
-print(sales.__name__)
-print(sales.__package__)
-print(sales.__cached__)
-print(sales.__file__)
+# # print(dir(sales))
+# print(sales.__name__)
+# print(sales.__package__)
+# print(sales.__cached__)
+# print(sales.__file__)
+
+
+
+# pipenv shell
+import requests
+
+response = requests.get("http://google.com")
+print(response)
